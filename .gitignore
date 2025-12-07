@@ -1,0 +1,5 @@
+# Generated after building project
+build/
+install/
+log/
+*.pyc
