@@ -12,8 +12,7 @@ capabilities:
     impl_id: "rtabmap"         # 可选：实现标识符 (如 "algo01", "algo02")。如果省略，默认为 "default"
     start_script: rbnx/start.sh    # 启动脚本路径 (相对于 package 根目录，如 "rbnx/start_cap.sh")
     stop_script: rbnx/stop.sh     # 停止脚本路径 (相对于 package 根目录，如 "rbnx/stop_cap.sh")
-    outputs:                # 输出参数通道映射 (字典格式: {参数名: topic通道})
-      parameter_name: /cloud_map
+    outputs: {}              # 输出参数通道映射 (字典格式: {参数名: topic通道})
     configs: {}             # 配置服务映射 (字典格式，通常为空)
 
 skills:
